@@ -2,3 +2,10 @@ html {
     background-color: white;
     font-family:monospace ;
 }
+
+#plate {
+    border-radius: 50%;
+    background-color: red;
+    height:15em;
+    width: 15em;
+}
