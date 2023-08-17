@@ -33,10 +33,13 @@ html {
 .div1 {
     font-size:350px;
     font-weight: bolder;
+    color: #ffc857;
 }
 
 .div2 {
-    font-size:250px;
+    font-size:225px;
+    color: white;
+    -webkit-text-stroke: 8px #ffc857;
 }
 
 .div3 {
@@ -47,18 +50,27 @@ html {
 }
 
 .div4 {
-    background-image: url(tabPics/blueTab.png);
+    background-image: url(images/blueChip.png);
     background-repeat: no-repeat;
+    background-size: contain;
     /* background-color: blue; */
     margin-left:12%;
 }
 
 .div5 {
-    background-image: url();
+    background-image: url(images/redChip.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: blue; */
+    margin-left:12%;
 }
 
 .div6 {
-    background-image: url();
+    background-image: url(images/yellowChip.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: blue; */
+    margin-left:12%;
 }
 
 .div7 {
