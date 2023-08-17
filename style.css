@@ -47,8 +47,9 @@ html {
 }
 
 .div4 {
-    /* background-image: url(); */
-    background-color: blue;
+    background-image: url(tabPics/blueTab.png);
+    background-repeat: no-repeat;
+    /* background-color: blue; */
     margin-left:12%;
 }
 
