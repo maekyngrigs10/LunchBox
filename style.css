@@ -13,13 +13,58 @@ html {
     border-color: rgb(161, 0, 0);
 }
 
-.title {
-    font-size: 250px;
-    width:auto;
-    height:auto;
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 2 / 1 / 3 / 4; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 3 / 1 / 4 / 2; }
+    .div5 { grid-area: 3 / 2 / 4 / 3; }
+    .div6 { grid-area: 3 / 3 / 4 / 4; }
+    .div7 { grid-area: 5 / 1 / 6 / 6; }
+    .div8 { grid-area: 1 / 4 / 5 / 6; }
+
+.div1 {
+    font-size:350px;
+    font-weight: bolder;
 }
 
-.right {
-    margin-right: 5em;
-    flex-direction: row;
+.div2 {
+    font-size:250px;
+}
+
+.div3 {
+    background-image: url(images/catLogo.png);
+    background-repeat: no-repeat;
+    margin-top: 12em;
+    margin-left: 1em;
+}
+
+.div4 {
+    /* background-image: url(); */
+    background-color: blue;
+    margin-left:12%;
+}
+
+.div5 {
+    background-image: url();
+}
+
+.div6 {
+    background-image: url();
+}
+
+.div7 {
+    background-color: #084c61;
+    height: 250px;
+    width:100%;
+    margin-left:2%;
+    margin-right: 25%;
+    border-radius: 0.8em;
 }
