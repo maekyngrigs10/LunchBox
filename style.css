@@ -2,7 +2,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    background-color: #f5f5f5;
+    background-color: #ffc857;
     margin: 0;
     padding: 0;
   }
@@ -44,9 +44,9 @@ body {
     text-align: center;
   }
   #main {
-    /* background-image: url(https://picsum.photos/800/600); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+    background-image: url(images/cute-cartoon-burger-icon-free-png.webp);
+    background-repeat: no-repeat;
+    /*background-size: cover; */
     background-color: #ffc857;
     height: 600px;
     position: relative;
@@ -61,6 +61,7 @@ body {
     transform: translate(-50%, -50%);
   }
   #gallery {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
