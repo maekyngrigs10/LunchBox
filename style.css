@@ -1,5 +1,7 @@
 html {
-    background-color: white;
+    background-image: url(images/lunchboxBackground.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
     font-family:monospace ;
 }
 
