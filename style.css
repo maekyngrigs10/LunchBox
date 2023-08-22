@@ -61,7 +61,8 @@ body {
     transform: translate(-50%, -50%);
   }
   #gallery {
-    
+    background-image: url(images/cute-cartoon-burger-icon-free-png-bottom.heic);
+    background-size: contain;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
