@@ -1,11 +1,7 @@
 html {
-    background-color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
-main{
-
-}
 
 footer{
     text-align: center;
@@ -14,6 +10,11 @@ footer{
     height: 200px;
 }
 
+main{
+    height: 750px;
+    background-color: white;
+}
+
 .footer-text{
-    padding:5em;
+    padding: 75px;
 }
