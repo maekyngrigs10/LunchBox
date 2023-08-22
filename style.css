@@ -1,6 +1,19 @@
 html {
     background-color: white;
-    font-family:monospace ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
+main{
 
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #ffc857;
+    height: 200px;
+}
+
+.footer-text{
+    padding:5em;
+}
