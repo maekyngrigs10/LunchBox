@@ -1,20 +1,94 @@
 html {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-footer{
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color: #db3a34;
+    color: #fff;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  #search {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
     text-align: center;
-    color: white;
+  }
+  #main {
+    /* background-image: url(https://picsum.photos/800/600); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     background-color: #ffc857;
-    height: 200px;
-}
+    height: 600px;
+    position: relative;
+    font-size: 1000px;
+  }
+  #main h1 {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .gallery-item1 {
+    margin: 10px;
+    width: 600px;
+    height: 250px;
+    background-color: #084c61;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 1.25em;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-main{
-    height: 750px;
-    background-color: white;
-}
-
-.footer-text{
-    padding: 75px;
-}
+  .menuimg {
+    background-image: url(images/);
+  }
+  footer {
+    background-color: #db3a34;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  footer p {
+    margin: 0;
+  }
