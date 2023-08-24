@@ -1,0 +1,165 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  nav {
+    background-color: #db3a34;
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+    
+  }
+
+  .gallery-item1 {
+    margin: 10px;
+    width: 450px;
+    height: 250px;
+    background-color: #084c61;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 1.25em;
+    padding-left:0px;
+    justify-content: center;
+  }
+
+  #title{
+    color: white;
+    font-size: 100px;
+    -webkit-text-stroke: 15px #ffc857;
+  }
+  
+  .nav-text{
+    font-size: 40px;
+  }
+
+  .nav-text li {
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+ 
+
+  footer {
+    background-color: #ffc857;
+    color: #fff;
+    text-align: center;
+    margin-top: 15em;
+    width: 100%;
+    height: 150px;
+  }
+
+
+
+
+
+
+/* all below is from vending machine */
+
+.headerRight{
+  padding-left: 70em;
+}
+
+.login-card{
+  position: relative;
+  z-index: 3;
+  width: 40%;
+  margin: 0 20px;
+  padding: 30px 30px 44px;
+  border-radius: 1.25rem;
+  background: white;
+  text-align: center;
+  margin-bottom: 10em;
+}
+
+.login-form{
+  width: 100%;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.login-form > input, .login-form > button{
+  width: 75%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form > input{
+  border: 2px solid #ebebeb;
+  font-size: 15px;
+  padding: 0 16px;
+  border-radius: 1.25rem;
+  transition: all 0.375s;
+}
+
+.login-form > input:hover{
+  border: 2px solid #00b6c9;
+}
+
+.login-form > button{
+  cursor: pointer;
+  width: 100px;
+  border-radius: 1.25rem;
+  background: grey;
+  color: white;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.375s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form > button:hover {
+  background: black;
+}
+
+.card-logo{
+  padding-bottom: 23em;
+  background-image: url("images/catLogo.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
