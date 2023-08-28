@@ -48,12 +48,22 @@ nav li {
 .nav-on-the-left{
   padding-left: 5em;
   font-size: large;
+  color: #323031;
 }
 
 .nav-on-the-right{
   padding-right: 5em;
   font-size: large;
 }
+
+a {
+  color: #323031;
+  text-decoration: none;
+}
+
+
+
+
 
 
 
@@ -74,21 +84,21 @@ nav li {
     margin-top: 5em;
 }
 
-.login-form{
+.upload-form{
   width: 30em;
   margin: 0;
   display: grid;
   gap: 16px;
 }
 
-.login-form > input, .login-form > button{
+.upload-form > input, .upload-form > button{
   width: 75%;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.login-form > input{
+.upload-form > input{
   border: 2px solid #ebebeb;
   font-size: 15px;
   padding: 0 16px;
@@ -96,16 +106,16 @@ nav li {
   transition: all 0.375s;
 }
 
-.login-form > input:hover{
+.upload-form > input:hover{
   border: 2px solid #084c61;
 }
 
-.login-form > button{
+.upload-form > button{
   cursor: pointer;
   width: 100px;
   border-radius: 1.25rem;
-  background: #084c61;
-  color: white;
+  background: #117e89;
+  color: #323031;
   border: 0;
   font-size: 1rem;
   font-weight: 600;
@@ -116,6 +126,6 @@ nav li {
   margin-right: auto;
 }
 
-.login-form > button:hover {
+.upload-form > button:hover {
   background: black;
 }
