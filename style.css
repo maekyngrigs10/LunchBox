@@ -28,7 +28,7 @@ footer {
 }
 
 nav {
-  width: 100%;
+  width: 95%;
   display: flex; 
   justify-content: space-between; 
   padding: 1rem 2rem; 
@@ -199,9 +199,10 @@ a {
   background: black;
 }
 
-/* menu page cards */
 
-/* contact page cards */
+
+
+/* menu page cards */
 .menu-container {
   display: flex;
 }
@@ -212,7 +213,7 @@ a {
   padding: 20px;
   margin: 10px;
   flex: 1;
-  width: 400px;
+  width: 350px;
   height:650px;
   color: white;
   border-radius: 1.25rem;
