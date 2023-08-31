@@ -17,7 +17,7 @@ body {
 }
   
 footer {
-    background-color: #323031;
+    background-color: #084c61;
     color: white;
     text-align: center;
     width: 100%;
@@ -197,4 +197,38 @@ a {
 
 .contact-form > button:hover {
   background: black;
+}
+
+/* menu page cards */
+
+/* contact page cards */
+.menu-container {
+  display: flex;
+}
+
+.menu {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  width: 400px;
+  height:650px;
+  color: white;
+  border-radius: 1.25rem;
+  background-color: #ffc857;
+  margin: 3em;
+  text-align: left;
+}
+
+.divider {
+  height:10px;
+  color:white;
+  width:300px;
+}
+
+#menuCard{
+  color: #ffc857;
+  font-size: 50px;
+  -webkit-text-stroke: 2.5px white;
 }
