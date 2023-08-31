@@ -76,6 +76,8 @@ a {
     text-align: center;
     margin-bottom: 10em;
     margin-top: 5em;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .upload-form{
@@ -106,18 +108,19 @@ a {
 
 .upload-form > button{
   cursor: pointer;
-  width: 100px;
+  width: 125px;
   border-radius: 1.25rem;
   background: #117e89;
   color: #323031;
   border: 0;
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 600;
   text-align: center;
   letter-spacing: 2px;
   transition: all 0.375s;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .upload-form > button:hover {
@@ -127,92 +130,71 @@ a {
 
 
 
-/* contact card */
-.contact-card{
-  position: relative;
-  z-index: 3;
-  width: 50em;
-  margin: 0 20px;
-  padding: 30px 30px 44px;
+
+
+
+/* contact page cards */
+.card-container {
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  width: 500px;
+  height: 500px;
   border-radius: 1.25rem;
-  background: #ffc857;
+  background-color: #ffc857;
+  margin: 3em;
   text-align: center;
-  margin-bottom: 10em;
-  margin-top: 10em;
-  margin-right: 50em;
 }
 
 .contact-form{
-width: 50em;
-margin: 0;
-display: grid;
-gap: 16px;
+  width: 30em;
+  margin: 0;
+  display: grid;
+  gap: 16px;
 }
 
 .contact-form > input, .contact-form > button{
-width: 75%;
-height: 50px;
-margin-left: auto;
-margin-right: auto;
+  width: 75%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-form > input{
-border: 2px solid #ebebeb;
-font-size: 15px;
-padding: 0 16px;
-border-radius: 1.25rem;
-transition: all 0.375s;
+  border: 2px solid #ebebeb;
+  font-size: 15px;
+  padding: 0 16px;
+  border-radius: 1.25rem;
+  transition: all 0.375s;
 }
 
 .contact-form > input:hover{
-border: 2px solid #084c61;
+  border: 2px solid #084c61;
 }
 
 .contact-form > button{
-cursor: pointer;
-width: 100px;
-border-radius: 1.25rem;
-background: #117e89;
-color: #323031;
-border: 0;
-font-size: 1rem;
-font-weight: 600;
-text-align: center;
-letter-spacing: 2px;
-transition: all 0.375s;
-margin-left: auto;
-margin-right: auto;
+  cursor: pointer;
+  width: 125px;
+  border-radius: 1.25rem;
+  background: #117e89;
+  color: #323031;
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.375s;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contact-form > button:hover {
-background: black;
-}
-
-/* address card */
-.address-card{
-  position: relative;
-  z-index: 3;
-  width: 35em;
-  height: 20.7em;
-  margin: 0 20px;
-  padding: 30px 30px 44px;
-  border-radius: 1.25rem;
-  background: #db3a34;
-  text-align: center;
-  margin-bottom: 10em;
-  margin-top: -35.3em;
-  margin-left: 60em;
-}
-
-.address-info{
-width: 50em;
-margin: 0;
-display: grid;
-color: black;
-padding-right: 0em;
-}
-
-.emailSubCheckbox{
-  font-size: medium;
-  color: black;
+  background: black;
 }
