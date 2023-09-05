@@ -1,238 +1,522 @@
+/* desktop view */
+@media(min-width:1024px){
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  }
 
-body {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    place-items: center;
-    background-color: white;
-}
+  body {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      place-items: center;
+      background-color: white;
+  }
 
-#title{
+  #title{
+      color: white;
+      font-size: 100px;
+      -webkit-text-stroke: 15px #ffc857;
+  }
+    
+  footer {
+      background-color: #084c61;
+      color: white;
+      text-align: center;
+      width: 100%;
+      height: 10em;
+      text-align: center;
+      padding-top: 3em;
+      padding-bottom: 3em;
+  }
+
+  nav {
+    width: 96%;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 1rem 2rem; 
+    background: #117e89; 
+    height: 75px;
+  }
+
+  nav ul {
+    display: flex; 
+    list-style: none; 
+  }
+
+  nav li {
+    padding-left: 2em; 
+  }
+
+  .nav-on-the-left{
+    padding-left: 4em;
+    font-size: large;
+  }
+
+  .nav-on-the-right{
+    padding-right: 4em;
+    font-size: large;
+  }
+
+  a {
     color: white;
-    font-size: 100px;
-    -webkit-text-stroke: 15px #ffc857;
-}
-  
-footer {
-    background-color: #084c61;
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 6em;
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-nav {
-  width: 96%;
-  display: flex; 
-  justify-content: space-between; 
-  padding: 1rem 2rem; 
-  background: #117e89; 
-}
-
-nav ul {
-  display: flex; 
-  list-style: none; 
-}
-
-nav li {
-  padding-left: 2em; 
-}
-
-.nav-on-the-left{
-  padding-left: 5em;
-  font-size: large;
-  color: #323031;
-}
-
-.nav-on-the-right{
-  padding-right: 5em;
-  font-size: large;
-}
-
-a {
-  color: #323031;
-  text-decoration: none;
-}
+    text-decoration: none;
+  }
 
 
+  /* upload card */
+  .upload-card{
+      position: relative;
+      z-index: 3;
+      width: 30em;
+      margin: 0 20px;
+      padding: 30px 30px 44px;
+      border-radius: 1.25rem;
+      background: #ffc857;
+      text-align: center;
+      margin-bottom: 10em;
+      margin-top: 5em;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
-
-
-/* upload card */
-.upload-card{
-    position: relative;
-    z-index: 3;
+  .upload-form{
     width: 30em;
-    margin: 0 20px;
-    padding: 30px 30px 44px;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+
+  .upload-form > input, .upload-form > button{
+    width: 75%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .upload-form > input{
+    border: 2px solid #ebebeb;
+    font-size: 15px;
+    padding: 0 16px;
     border-radius: 1.25rem;
-    background: #ffc857;
+    transition: all 0.375s;
+  }
+
+  .upload-form > input:hover{
+    border: 2px solid #084c61;
+  }
+
+  .upload-form > button{
+    cursor: pointer;
+    width: 125px;
+    border-radius: 1.25rem;
+    background: #117e89;
+    color: #323031;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
-    margin-bottom: 10em;
-    margin-top: 5em;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .upload-form > button:hover {
+    background: black;
+  }
+
+
+  /* contact page cards */
+  .card-container {
+    display: flex;
+  }
+
+  .card {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-}
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    width: 500px;
+    height: 500px;
+    border-radius: 1.25rem;
+    background-color: #ffc857;
+    margin: 3em;
+    text-align: center;
+  }
 
-.upload-form{
-  width: 30em;
-  margin: 0;
-  display: grid;
-  gap: 16px;
-}
+  .contact-form{
+    width: 30em;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
 
-.upload-form > input, .upload-form > button{
-  width: 75%;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .contact-form > input, .contact-form > button{
+    width: 75%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.upload-form > input{
-  border: 2px solid #ebebeb;
-  font-size: 15px;
-  padding: 0 16px;
-  border-radius: 1.25rem;
-  transition: all 0.375s;
-}
+  .contact-form > input{
+    border: 2px solid #ebebeb;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+  }
 
-.upload-form > input:hover{
-  border: 2px solid #084c61;
-}
+  .contact-form > input:hover{
+    border: 2px solid #084c61;
+  }
 
-.upload-form > button{
-  cursor: pointer;
-  width: 125px;
-  border-radius: 1.25rem;
-  background: #117e89;
-  color: #323031;
-  border: 0;
-  font-size: 15px;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 2px;
-  transition: all 0.375s;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  .contact-form > button{
+    cursor: pointer;
+    width: 125px;
+    border-radius: 1.25rem;
+    background: #117e89;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
-.upload-form > button:hover {
-  background: black;
-}
-
-
+  .contact-form > button:hover {
+    background: black;
+  }
 
 
+  /* menu page cards */
+  .menu-container {
+    display: flex;
+  }
 
+  .menu {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    width: 325px;
+    height:650px;
+    color: white;
+    border-radius: 1.25rem;
+    background-color: #ffc857;
+    margin: 3em;
+    text-align: left;
+  }
 
+  .divider {
+    height:10px;
+    color:white;
+    width:300px;
+  }
 
-/* contact page cards */
-.card-container {
-  display: flex;
-}
-
-.card {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 10px;
-  flex: 1;
-  width: 500px;
-  height: 500px;
-  border-radius: 1.25rem;
-  background-color: #ffc857;
-  margin: 3em;
-  text-align: center;
-}
-
-.contact-form{
-  width: 30em;
-  margin: 0;
-  display: grid;
-  gap: 16px;
-}
-
-.contact-form > input, .contact-form > button{
-  width: 75%;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-form > input{
-  border: 2px solid #ebebeb;
-  font-size: 15px;
-  padding: 0 16px;
-  border-radius: 1.25rem;
-  transition: all 0.375s;
-}
-
-.contact-form > input:hover{
-  border: 2px solid #084c61;
-}
-
-.contact-form > button{
-  cursor: pointer;
-  width: 125px;
-  border-radius: 1.25rem;
-  background: #117e89;
-  color: #323031;
-  border: 0;
-  font-size: 15px;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 2px;
-  transition: all 0.375s;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.contact-form > button:hover {
-  background: black;
+  #menuCard{
+    color: #ffc857;
+    font-size: 50px;
+    -webkit-text-stroke: 2.5px white;
+  }
 }
 
 
 
 
-/* menu page cards */
-.menu-container {
-  display: flex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile layout */
+@media (max-width:750px){
+  html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      place-items: center;
+      background-color: white;
+  }
+
+  #title{
+      color: white;
+      font-size: 100px;
+      -webkit-text-stroke: 15px #ffc857;
+  }
+    
+  footer {
+      background-color: #084c61;
+      color: white;
+      text-align: center;
+      width: 100%;
+      height: 6em;
+      text-align: center;
+      padding-top: 3em;
+      padding-bottom: 3em;
+  }
+
+  nav {
+    width: 96%;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 1rem 0.75rem; 
+    background: #117e89; 
+    height: 75px;
+  }
+
+  nav ul {
+    display: flex; 
+    list-style: none; 
+  }
+
+  nav li {
+    padding-left: 2em; 
+  }
+
+  .nav-on-the-left{
+    padding-left: 4em;
+    font-size: large;
+  }
+
+  .nav-on-the-right{
+    padding-right: 4em;
+    font-size: large;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  /* upload card */
+  .upload-card{
+      position: relative;
+      z-index: 3;
+      width: 30em;
+      margin: 0 20px;
+      padding: 30px 30px 44px;
+      border-radius: 1.25rem;
+      background: #ffc857;
+      text-align: center;
+      margin-bottom: 10em;
+      margin-top: 5em;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .upload-form{
+    width: 30em;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+
+  .upload-form > input, .upload-form > button{
+    width: 75%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .upload-form > input{
+    border: 2px solid #ebebeb;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+  }
+
+  .upload-form > input:hover{
+    border: 2px solid #084c61;
+  }
+
+  .upload-form > button{
+    cursor: pointer;
+    width: 125px;
+    border-radius: 1.25rem;
+    background: #117e89;
+    color: #323031;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .upload-form > button:hover {
+    background: black;
+  }
+
+
+  /* contact page cards */
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    width:600px;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    width: 450px;
+    height: 500px;
+    border-radius: 1.25rem;
+    background-color: #ffc857;
+    margin: 3em;
+    text-align: center;
+  }
+
+  .contact-form{
+    width: 30em;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+
+  .contact-form > input, .contact-form > button{
+    width: 75%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-form > input{
+    border: 2px solid #ebebeb;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+  }
+
+  .contact-form > input:hover{
+    border: 2px solid #084c61;
+  }
+
+  .contact-form > button{
+    cursor: pointer;
+    width: 125px;
+    border-radius: 1.25rem;
+    background: #117e89;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .contact-form > button:hover {
+    background: black;
+  }
+
+  #landing {
+    width:450px;
+    height:auto;
+    padding-top:15em;
+    padding-bottom:15em;
+  }
+
+
+  /* menu page cards */
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    width: 325px;
+    height:650px;
+    color: white;
+    border-radius: 1.25rem;
+    background-color: #ffc857;
+    margin: 3em;
+    text-align: left;
+  }
+
+  .divider {
+    height:10px;
+    color:white;
+    width:300px;
+  }
+
+  #menuCard{
+    color: #ffc857;
+    font-size: 50px;
+    -webkit-text-stroke: 2.5px white;
+  }
+
+  #pdfMenu {
+    width:450px;
+    height: auto;
+    padding-top:5em;
+    padding-bottom:5em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-.menu {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 10px;
-  flex: 1;
-  width: 325px;
-  height:650px;
-  color: white;
-  border-radius: 1.25rem;
-  background-color: #ffc857;
-  margin: 3em;
-  text-align: left;
-}
-
-.divider {
-  height:10px;
-  color:white;
-  width:300px;
-}
-
-#menuCard{
-  color: #ffc857;
-  font-size: 50px;
-  -webkit-text-stroke: 2.5px white;
-}
-
-
-
