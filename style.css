@@ -59,8 +59,58 @@ html {
 
   a {
     color: white;
+<<<<<<< HEAD
     text-decoration: none;
   }
+=======
+    font-size: 100px;
+    -webkit-text-stroke: 15px #707f43;
+}
+  
+footer {
+    background-color: #084c61;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 6em;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+nav {
+  width: 96%;
+  display: flex; 
+  justify-content: space-between; 
+  padding: 1rem 2rem; 
+  background: #117e89; 
+}
+
+nav ul {
+  display: flex; 
+  list-style: none; 
+}
+
+nav li {
+  padding-left: 2em; 
+}
+
+.nav-on-the-left{
+  padding-left: 5em;
+  font-size: large;
+  color: #323031;
+}
+
+.nav-on-the-right{
+  padding-right: 5em;
+  font-size: large;
+}
+
+a {
+  color: #323031;
+  text-decoration: none;
+}
+>>>>>>> 7ff005189180655610dadb53e6149786620e8bb5
 
 
   /* upload card */
@@ -98,6 +148,7 @@ html {
     font-size: 15px;
     padding: 0 16px;
     border-radius: 1.25rem;
+<<<<<<< HEAD
     transition: all 0.375s;
   }
 
@@ -114,6 +165,9 @@ html {
     border: 0;
     font-size: 15px;
     font-weight: 600;
+=======
+    background: #707f43;
+>>>>>>> 7ff005189180655610dadb53e6149786620e8bb5
     text-align: center;
     letter-spacing: 2px;
     transition: all 0.375s;
@@ -233,10 +287,112 @@ html {
 
 
 
+<<<<<<< HEAD
+=======
+/* contact page cards */
+.card-container {
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  width: 500px;
+  height: 500px;
+  border-radius: 1.25rem;
+  background-color: #707f43;
+  margin: 3em;
+  text-align: center;
+}
+
+.contact-form{
+  width: 30em;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.contact-form > input, .contact-form > button{
+  width: 75%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form > input{
+  border: 2px solid #ebebeb;
+  font-size: 15px;
+  padding: 0 16px;
+  border-radius: 1.25rem;
+  transition: all 0.375s;
+}
+
+.contact-form > input:hover{
+  border: 2px solid #084c61;
+}
+
+.contact-form > button{
+  cursor: pointer;
+  width: 125px;
+  border-radius: 1.25rem;
+  background: #117e89;
+  color: #323031;
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.375s;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form > button:hover {
+  background: black;
+}
+>>>>>>> 7ff005189180655610dadb53e6149786620e8bb5
 
 
 
 
+<<<<<<< HEAD
+=======
+/* menu page cards */
+.menu-container {
+  display: flex;
+}
+
+.menu {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  width: 325px;
+  height:650px;
+  color: white;
+  border-radius: 1.25rem;
+  background-color: #707f43;
+  margin: 3em;
+  text-align: left;
+}
+
+.divider {
+  height:10px;
+  color:white;
+  width:300px;
+}
+
+#menuCard{
+  color: #707f43;
+  font-size: 50px;
+  -webkit-text-stroke: 2.5px white;
+}
+>>>>>>> 7ff005189180655610dadb53e6149786620e8bb5
 
 
 
