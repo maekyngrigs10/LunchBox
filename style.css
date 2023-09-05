@@ -13,7 +13,7 @@ body {
 #title{
     color: white;
     font-size: 100px;
-    -webkit-text-stroke: 15px #ffc857;
+    -webkit-text-stroke: 15px #707f43;
 }
   
 footer {
@@ -72,7 +72,7 @@ a {
     margin: 0 20px;
     padding: 30px 30px 44px;
     border-radius: 1.25rem;
-    background: #ffc857;
+    background: #707f43;
     text-align: center;
     margin-bottom: 10em;
     margin-top: 5em;
@@ -147,7 +147,7 @@ a {
   width: 500px;
   height: 500px;
   border-radius: 1.25rem;
-  background-color: #ffc857;
+  background-color: #707f43;
   margin: 3em;
   text-align: center;
 }
@@ -217,7 +217,7 @@ a {
   height:650px;
   color: white;
   border-radius: 1.25rem;
-  background-color: #ffc857;
+  background-color: #707f43;
   margin: 3em;
   text-align: left;
 }
@@ -229,7 +229,7 @@ a {
 }
 
 #menuCard{
-  color: #ffc857;
+  color: #707f43;
   font-size: 50px;
   -webkit-text-stroke: 2.5px white;
 }
