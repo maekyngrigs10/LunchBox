@@ -12,19 +12,13 @@
           place-items: center;
           background-color: white;
       }
-    
-    
-      #title{
-          color: white;
-          font-size: 100px;
-          -webkit-text-stroke: 15px #ffc857;
-      }
+  
        
       footer {
           background-color: #084c61;
           color: white;
           text-align: center;
-          width: 100%;
+          width: 100vw;
           height: 10em;
           text-align: center;
           padding-top: 3em;
@@ -33,10 +27,9 @@
     
     
       nav {
-        width: 96%;
+        width: 100vw;
         display: flex;
         justify-content: space-between;
-        padding: 1rem 2rem;
         background: #117e89;
         height: 75px;
       }
@@ -52,22 +45,28 @@
         padding-left: 2em;
       }
     
-    
+      
       .nav-on-the-left{
         padding-left: 4em;
         font-size: large;
+        display: grid;
+        align-items: center;
+        height: 75px;
       }
     
     
       .nav-on-the-right{
         padding-right: 4em;
-        font-size: large;
+        display: grid;
+        align-items: center;
+        height: 75px; 
       }
     
     
       a {
         color: white;
         text-decoration: none;
+        font-size: larger;
       }
     
     
@@ -155,7 +154,6 @@
         border: 1px solid #ccc;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         padding: 20px;
-        margin: 10px;
         flex: 1;
         width: 500px;
         height: 500px;
@@ -231,7 +229,6 @@
         border: 1px solid #ccc;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         padding: 20px;
-        margin: 10px;
         flex: 1;
         width: 325px;
         height:650px;
@@ -255,7 +252,25 @@
         font-size: 50px;
         -webkit-text-stroke: 2.5px white;
       }
-    }
+
+      #pdfMenu {
+        width: 100vw;
+        height: auto;
+        padding-top:5em;
+        padding-bottom:5em;
+      }
+
+      #homePageLunchboxLogo{
+        height: 70vh;
+        width: 70vw;
+      }
+   
+}
+    
+
+
+      
+      
     
     
     
@@ -310,11 +325,7 @@
     
     
     
-    
-    
-    
-    
-    /* mobile layout */
+    /* mobile view */
     @media (max-width:750px){
       html {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -328,19 +339,13 @@
           place-items: center;
           background-color: white;
       }
-    
-    
-      #title{
-          color: white;
-          font-size: 100px;
-          -webkit-text-stroke: 15px #ffc857;
-      }
+
        
       footer {
           background-color: #084c61;
           color: white;
           text-align: center;
-          width: 100%;
+          width: 100vw;
           height: 6em;
           text-align: center;
           padding-top: 3em;
@@ -349,10 +354,9 @@
     
     
       nav {
-        width: 96%;
+        width: 100vw;
         display: flex;
         justify-content: space-between;
-        padding: 1rem 0.75rem;
         background: #117e89;
         height: 75px;
       }
@@ -365,25 +369,29 @@
     
     
       nav li {
-        padding-left: 2em;
+        padding-left: .75em;
       }
-    
     
       .nav-on-the-left{
         padding-left: 4em;
-        font-size: large;
+        font-size: small;
+        display: grid;
+        align-items: center;
+        height: 75px;
       }
-    
     
       .nav-on-the-right{
         padding-right: 4em;
-        font-size: large;
+        display: grid;
+        align-items: center;
+        height: 75px; 
       }
     
     
       a {
         color: white;
         text-decoration: none;
+        font-size: large;
       }
     
     
@@ -393,7 +401,7 @@
       .upload-card{
           position: relative;
           z-index: 3;
-          width: 30em;
+          width: 80vw;
           margin: 0 20px;
           padding: 30px 30px 44px;
           border-radius: 1.25rem;
@@ -407,7 +415,7 @@
     
     
       .upload-form{
-        width: 30em;
+        width: 80vw;
         margin: 0;
         display: grid;
         gap: 16px;
@@ -465,7 +473,7 @@
       .card-container {
         display: flex;
         flex-direction: column;
-        width:600px;
+        width: 100vw;
       }
     
     
@@ -473,19 +481,18 @@
         border: 1px solid #ccc;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         padding: 20px;
-        margin: 10px;
         flex: 1;
-        width: 450px;
+        width: 80vw;
         height: 500px;
         border-radius: 1.25rem;
         background-color: #ffc857;
-        margin: 3em;
+        margin: 1.9em; 
         text-align: center;
       }
     
     
       .contact-form{
-        width: 30em;
+        width: 80vw;
         margin: 0;
         display: grid;
         gap: 16px;
@@ -537,14 +544,6 @@
       }
     
     
-      #landing {
-        width:450px;
-        height:auto;
-        padding-top:15em;
-        padding-bottom:15em;
-      }
-    
-    
     
     
       /* menu page cards */
@@ -553,12 +552,10 @@
         flex-direction: column;
       }
     
-    
       .menu {
         border: 1px solid #ccc;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         padding: 20px;
-        margin: 10px;
         flex: 1;
         width: 325px;
         height:650px;
@@ -569,13 +566,11 @@
         text-align: left;
       }
     
-    
       .divider {
         height:10px;
         color:white;
         width:300px;
       }
-    
     
       #menuCard{
         color: #ffc857;
@@ -583,53 +578,32 @@
         -webkit-text-stroke: 2.5px white;
       }
     
-    
       #pdfMenu {
-        width:450px;
+        width: 100vw;
         height: auto;
         padding-top:5em;
         padding-bottom:5em;
       }
+
+      #homePageLunchboxLogo{
+        height: 30vh;
+        width: 70vw;
+        padding-top: 8em;
+        padding-bottom: 8em;
+      }
+    
+}
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    }
-    
-    
+
+
+
+/*   old landing page text style
+
+
+      #title{
+          color: white;
+          font-size: 100px;
+          -webkit-text-stroke: 15px #ffc857;
+      }
+*/
