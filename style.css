@@ -22,7 +22,7 @@
           height: 10em;
           text-align: center;
           padding-top: 3em;
-          padding-bottom: 3em;
+          padding-bottom: 1em;
       }
     
     
@@ -30,7 +30,7 @@
         width: 100vw;
         display: flex;
         justify-content: space-between;
-        background: #117e89;
+        background-color: #117e89;
         height: 75px;
       }
     
@@ -357,7 +357,7 @@
         width: 100vw;
         display: flex;
         justify-content: space-between;
-        background: #117e89;
+        background-color: #117e89;
         height: 75px;
       }
     
