@@ -7,18 +7,16 @@
                 <meta name="viewport" content="width=device-width,initial-scale=1.0">
             </head>
             <body>
-                <nav>
-                    <div class="nav-on-the-left">
-                        <img src="content/lunchBoxLogo.png" height="75px" width="135px">
+                <div id="navbar">
+                    <a href="#default" id="logo">CompanyLogo</a>
+                    <div id="navbar-right">
+                        
+                        <a href="index.html">Home</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="contact.html">Contact</a>
+                        
                     </div>
-                    <div class="nav-on-the-right">
-                        <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                </div>
                 <main>
                     <div class="menu-container">
 
@@ -77,4 +75,18 @@
 
                 </footer>
             </body>
+
+            <script>
+                window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+            </script>
     </html>
