@@ -261,6 +261,20 @@
         width: 50vw;
       }
 
+      #homePageWarningSign{
+        height: 200px;
+        width: 200px;
+      }
+
+      /* to keep the warning sign centered */
+      .closed-Alert-Container{
+        display:flex;
+        width: 100%; 
+        height: 10vh;
+        justify-content: center; 
+        align-items: center; 
+        padding-bottom: 4em;
+      }
 
       /* for the big logo on the home page */
       .bigLogo-container {
@@ -593,7 +607,24 @@
         padding-bottom: 2em;
       }
 
+      #homePageWarningSign{
+        height: 150px;
+        width: 150px;
+      }
 
+      /* to keep the warning sign centered */
+      .closed-Alert-Container{
+        display:flex;
+        width: 100%; 
+        height: 10vh;
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 4em;
+        padding-bottom: 4em;
+        flex-direction: column;
+        text-align: center;
+      }
+      
       /* for the big logo on the home page */
       .bigLogo-container {
         display:flex;
@@ -602,19 +633,9 @@
         justify-content: center; 
         align-items: center; 
       }
+
     
 }
     
     
 
-
-
-/*   old landing page text style
-
-
-      #title{
-          color: white;
-          font-size: 100px;
-          -webkit-text-stroke: 15px #ffc857;
-      }
-*/
