@@ -10,13 +10,14 @@
           padding: 0;
           display: grid;
           place-items: center;
-          background-color: white;
+          background-color: whitesmoke;
       }
   
        
       footer {
-          background-color: #084c61;
-          color: white;
+          background-color: #ADD8E6;
+          color: black;
+          font-weight: 500;
           text-align: center;
           width: 100vw;
           height: 10em;
@@ -30,8 +31,8 @@
         width: 100vw;
         display: flex;
         justify-content: space-between;
-        background: #117e89;
-        height: 95px;
+        background: #ADD8E6;
+        height: 125px;
       }
     
     
@@ -51,7 +52,7 @@
         font-size: large;
         display: grid;
         align-items: center;
-        height: 95px;
+        height: 125px;
       }
     
     
@@ -59,7 +60,7 @@
         padding-right: 4em;
         display: grid;
         align-items: center;
-        height: 95px; 
+        height: 125px; 
       }
     
     
@@ -283,6 +284,10 @@
         height: 70vh;
         justify-content: center; 
         align-items: center; 
+      }
+
+      .menu-items-spaced-over{
+        margin-left: 1.5em;
       }
 
 }
