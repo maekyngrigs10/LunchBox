@@ -19,59 +19,40 @@
                     </div>
                 </nav>
                 <main>
-
-                
                     <div class="card-container">
-
                         <div class="card">
-                          <h2>CONTACT US</h2>
-                          <p>Give us your info</p>
+                          <h2>CONNECT WITH US</h2>
                         <form class="contact-form">
                             <input type="text" placeholder="first name" style="background-color:silver">
                             <input type="text" placeholder="last name" style="background-color:silver">
                             <input type="email" placeholder="username@email.com" style="background-color:silver">
-                            <button type="submit">join</button>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="custom-checkbox">
+                                <span class="checkbox-text">sign up for weekly newsletter</span>
+                            </label><br>
+                            <div class="contact-form">
+                                    <input type="text" id="inputBox" list="optionsList" placeholder="how did you find out about us?" style="background-color:silver">
+                                <datalist id="optionsList">
+                                  <option value="Instagram">
+                                  <option value="Facebook">
+                                  <option value="sictc.com">
+                                  <option value="Friend">
+                                  <option value="News Articles">
+                                </datalist>
+                            </div>
+                            <button type="submit">connect</button>
                         </form>
                         </div>
-
-
                         <div class="card" style="background-color: #335879">
-                            <img src="content/sictcMapView.png" height="300px" width="400px" style="border-radius: 1.25rem;">
-                            <br>
-                            <a href='https://www.google.com/maps/place/Southern+Indiana+Career+%26+Technical+Center/@38.0113204,-87.5325933,17z/data=!3m1!4b1!4m6!3m5!1s0x886e2a6df608fa39:0x4a3ac1296ea535e5!8m2!3d38.0113204!4d-87.5300184!16s%2Fm%2F04ljzp2?entry=ttu' target="_blank">1901 Lynch Rd, Evansville, IN 47711 &#x2197;</a></a>
+                            <img class="map-pic" src="content/sictcMapViewMarked.png" height="280px" width="420px" style="border-radius: 1.25rem;"><br>
+                            <a class="white-address" href='https://www.google.com/maps/place/Southern+Indiana+Career+%26+Technical+Center/@38.0113204,-87.5325933,17z/data=!3m1!4b1!4m6!3m5!1s0x886e2a6df608fa39:0x4a3ac1296ea535e5!8m2!3d38.0113204!4d-87.5300184!16s%2Fm%2F04ljzp2?entry=ttu' target="_blank">1901 Lynch Rd, Evansville, IN 47711 &#x2197;</a></a>
                         </div>
-
-                        
-
                       </div>
-
                 </main>
                 <footer>
-                    
                     Maekyn Grigsby & Ty Tichenor &copy; <br>
                     The Lunchbox <br>
                     1901 Lynch Rd, Evansville, IN 47711 <br>
-                    <img src="content/footerSICTC.png" style="width:150px;height:75px;">
-
+                    <a href="https://sictc.evscschools.com/"><img src="content/footerSICTC.png" style="width:150px;height:75px;"><a></a>
                 </footer>
             </body>
-
-            <script>
-                function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-            </script>
-    </html>
