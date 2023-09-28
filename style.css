@@ -206,7 +206,7 @@
         padding: 20px;
         flex: 1;
         width: 325px;
-        height:650px;
+        height:1000px;
         color: white;
         border-radius: 1.25rem;
         background-color: #ffc857;
@@ -257,6 +257,7 @@
 
       .menu-items-spaced-over{
         margin-left: 1.5em;
+        color: black;
       }
 
       /* for checkbox */
@@ -592,7 +593,7 @@
         padding: 20px;
         flex: 1;
         width: 72vw;
-        height:650px;
+        height:1000px;
         color: white;
         border-radius: 1.25rem;
         background-color: #ffc857;
@@ -648,6 +649,7 @@
 
       .menu-items-spaced-over{
         margin-left: 1.5em;
+        color: black;
       }
 
       /* for checkbox */
