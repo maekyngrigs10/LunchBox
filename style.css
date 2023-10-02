@@ -253,14 +253,22 @@
     margin-left: 1.5em;
     color: black;
   }
+  .thank-you{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    padding-top: 1em;
+  }
   /* For COMMON INFO */
   .card-COMMON {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 1.25rem;
-    margin-left: 6em;
-    margin-right: 6em;
-    max-width: 500px;
+    margin: 3em;
+    width: 325px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #335879;
     color: white;
@@ -268,7 +276,7 @@
     font-weight: 700;
   }
   .card-COMMON h2 {
-    color: #ADD8E6;
+    color: #ffc857;
     font-size: 24px;
     margin-bottom: 10px;
   }
@@ -285,6 +293,18 @@
     margin-bottom: 3em;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Mobile view */
 @media (max-width: 750px) {
@@ -549,6 +569,17 @@
   .menu-items-spaced-over {
     margin-left: 1.5em;
     color: black;
+  }
+  .thank-you{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    flex-direction: column;
+    text-align: center;
   }
   /* For COMMON INFO */
   .card-COMMON {
