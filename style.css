@@ -174,6 +174,36 @@
   .contact-form > button:hover {
     background: black;
   }
+/* for horizontal contact page*/
+  .horiz-parent{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+  }
+  .contact-form-half {
+    padding-left: 1.4em;
+    width: 20em;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  .contact-form-half > input,
+  .contact-form > button {
+    width: 75%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-form-half > input {
+    border: 2px solid #ebebeb;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+  }
+  .contact-form-half > input:hover {
+    border: 2px solid #084c61;
+  }
   /* Menu page cards */
   .menu-container {
     display: flex;
@@ -186,7 +216,7 @@
     padding: 20px;
     flex: 1;
     width: 325px;
-    height: 1000px;
+    height: 775px;
     color: white;
     border-radius: 1.25rem;
     background-color: #ffc857;
@@ -194,7 +224,7 @@
     text-align: left;
   }
   .divider {
-    height: -10px;
+    height: 0.05px;
     color: white;
     width: 300px;
   }
@@ -202,6 +232,18 @@
     color: #ffc857;
     font-size: 50px;
     -webkit-text-stroke: 2.5px white;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-items-spaced-over {
+    margin-left: 1.5em;
+    color: black;
+    padding:0;
+    margin:0;
+  }
+  #dateTXT{
+    padding: 0;
+    margin: 0;
   }
   #homePageLunchboxLogo {
     height: 60vh;
@@ -249,10 +291,6 @@
     margin-top: 3em;
     margin-bottom: 6em;
   }
-  .menu-items-spaced-over {
-    margin-left: 1.5em;
-    color: black;
-  }
   .thank-you{
     display: flex;
     width: 100%;
@@ -293,6 +331,21 @@
     margin-bottom: 3em;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -485,6 +538,37 @@
   .contact-form > button:hover {
     background: black;
   }
+/* for horizontal contact page*/
+.horiz-parent{
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.contact-form-half {
+  padding-left: 1.4em;
+  width: 15em;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+.contact-form-half > input,
+.contact-form > button {
+  width: 75%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-form-half > input {
+  border: 2px solid #ebebeb;
+  font-size: 15px;
+  padding: 0 16px;
+  border-radius: 1.25rem;
+  transition: all 0.375s;
+  font-size: x-small;
+}
+.contact-form-half > input:hover {
+  border: 2px solid #084c61;
+}
   /* Menu page cards */
   .menu-container {
     display: flex;
@@ -505,14 +589,28 @@
     text-align: left;
   }
   .divider {
-    height: 10px;
+    height: 0.05px;
     color: white;
     width: 300px;
+    padding: 0;
+    margin: 0;
   }
   #menuCard {
     color: #ffc857;
     font-size: 50px;
     -webkit-text-stroke: 2.5px white;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-items-spaced-over {
+    margin-left: 1.5em;
+    color: black;
+    padding: 0;
+    margin: 0;
+  }
+  #dateTXT{
+    padding: 0;
+    margin: 0;
   }
   #homePageLunchboxLogo {
     height: 300px;
@@ -553,10 +651,10 @@
     height: 18px;
     margin-right: 15px;
   }
-  /* Other stuff */
   .checkbox-text {
     font-size: 18px;
   }
+  /* Other stuff */
   .white-address {
     color: white;
   }
@@ -565,10 +663,6 @@
     margin-bottom: 4em;
     height: 250px;
     width: 350px;
-  }
-  .menu-items-spaced-over {
-    margin-left: 1.5em;
-    color: black;
   }
   .thank-you{
     display: flex;
