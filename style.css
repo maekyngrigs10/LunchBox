@@ -194,7 +194,7 @@
     text-align: left;
   }
   .divider {
-    height: 10px;
+    height: -10px;
     color: white;
     width: 300px;
   }
