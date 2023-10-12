@@ -16,7 +16,7 @@
     color: black;
     font-weight: 500;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     height: 10em;
     text-align: center;
     padding-top: 3em;
@@ -24,7 +24,7 @@
     margin-top: 4em;
   }
   nav {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background: #ADD8E6;
@@ -331,7 +331,7 @@
 
 /* Mobile view and Half-Desktop */
 @media (max-width: 750px), (max-width: 1023px) {
-    html {
+  html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
   }
@@ -347,7 +347,7 @@
     color: black;
     font-weight: 500;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     height: 6em;
     text-align: center;
     padding-top: 3em;
@@ -355,7 +355,7 @@
     margin-top: 5em;
   }
   nav {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background: #ADD8E6;
@@ -392,19 +392,20 @@
   .upload-card {
     position: relative;
     z-index: 3;
-    width: 80vw;
+    max-width: 500px;
+    flex: 1;
     margin: 0 20px;
     padding: 30px 30px 44px;
     border-radius: 1.25rem;
     background: #ffc857;
     text-align: center;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     margin-top: 5em;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
   .upload-form {
-    width: 80vw;
+    max-width: 500px;
     margin: 0;
     display: grid;
     gap: 16px;
@@ -456,7 +457,7 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     flex: 1;
-    width: 80vw;
+    max-width: 500px;
     height: 500px;
     border-radius: 1.25rem;
     background-color: #ffc857;
@@ -519,7 +520,7 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     flex: 1;
-    width: 72vw;
+    max-width: 500px;
     height: 1000px;
     color: white;
     border-radius: 1.25rem;
@@ -552,10 +553,11 @@
     margin: 0;
   }
   #homePageLunchboxLogo {
-    height: 300px;
-    width: 400px;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    height: 100%;
+    width: 100%;
+    margin-top: 8em;
+    margin-bottom: 5em;
+
   }
   #homePageWarningSign {
     height: 150px;
@@ -576,8 +578,7 @@
   /* For the big logo on the home page */
   .bigLogo-container {
     display: flex;
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
     justify-content: center;
     align-items: center;
   }
@@ -600,8 +601,8 @@
   .map-pic {
     margin-top: 3em;
     margin-bottom: 4em;
-    height: 250px;
-    width: 350px;
+    max-width: 300px;
+    max-height: 200px;
   }
   .thank-you{
     display: flex;
